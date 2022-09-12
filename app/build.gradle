@@ -3,14 +3,6 @@ plugins {
 }
 
 android {
-    signingConfigs {
-        debug {
-            storeFile file('/Users/jiajieyin/Desktop/SDE-NEU-Class/5520/Keystore/classkeystore')
-            keyPassword '000188'
-            keyAlias '000188'
-            storePassword '000188'
-        }
-    }
     compileSdk 32
 
     defaultConfig {
