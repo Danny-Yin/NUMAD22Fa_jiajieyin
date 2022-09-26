@@ -7,6 +7,7 @@
 
     <Button
         android:id="@+id/button5"
+        android:onClick="MyonClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="C"
@@ -19,6 +20,7 @@
 
     <Button
         android:id="@+id/button8"
+        android:onClick="MyonClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -31,6 +33,7 @@
 
     <Button
         android:id="@+id/button4"
+        android:onClick="MyonClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="B"
@@ -42,6 +45,7 @@
 
     <Button
         android:id="@+id/button7"
+        android:onClick="MyonClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -55,6 +59,7 @@
 
     <Button
         android:id="@+id/button3"
+        android:onClick="MyonClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="A"
@@ -67,6 +72,7 @@
 
     <Button
         android:id="@+id/button6"
+        android:onClick="MyonClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
