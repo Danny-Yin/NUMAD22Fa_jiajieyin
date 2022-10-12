@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".NewActivity"></activity>
         <activity android:name=".LinkActivityMain"></activity>
+        <activity android:name=".PrimePageMain"
+                android:exported="true" android:configChanges="orientation|screenSize"/>
 
     </application>
 

@@ -53,14 +53,6 @@ public class LinkActivityMain extends AppCompatActivity {
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /*
-                View view2 = LayoutInflater.from(view.getContext()).inflate(R.layout.link_item, linkRecycleView, false);
-
-                TextView name = view2.findViewById(R.id.linkName);
-
-                TextView url = view2.findViewById(R.id.linkURL);
-
-                 */
 
                 LayoutInflater layout_inf = LayoutInflater.from(getApplicationContext());
 
@@ -70,10 +62,6 @@ public class LinkActivityMain extends AppCompatActivity {
                 EditText name = v.findViewById(R.id.linkName_D);
                 EditText url = v.findViewById(R.id.linkURL_URL);
                 alertDialog.setView(v);
-
-               // alertDialog.setTitle("Add Data");
-
-                //alertDialog.setView(v);
 
                 alertDialog.setPositiveButton("Add", new DialogInterface.OnClickListener() {
                     @Override
