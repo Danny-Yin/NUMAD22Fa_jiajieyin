@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">NUMAD22Fa_jiajieyin</string>
+<!--    <string-array name="planets_array">-->
+<!--        <item>-->
+<!--            Change Precision-->
+<!--        </item>-->
+<!--        <item>-->
+<!--            Accurate Location-->
+<!--        </item>-->
+<!--        <item>-->
+<!--            Approximate Location-->
+<!--        </item>-->
+<!--    </string-array>-->
 </resources>

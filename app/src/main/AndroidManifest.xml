@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="edu.northeastern.NUMAD22Fa_jiajieyin">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -22,8 +24,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NewActivity"></activity>
-        <activity android:name=".LinkActivityMain"></activity>
+        <activity android:name=".NewActivity"
+            android:exported="true" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".LinkActivityMain"
+            android:exported="true" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".GpsMain"
+            android:exported="true" android:configChanges="orientation|screenSize"/>
         <activity android:name=".PrimePageMain"
                 android:exported="true" android:configChanges="orientation|screenSize"/>
 
